@@ -1,6 +1,5 @@
 #ifndef UTN_H_
 #define UTN_H_
-int utn_getInt(int* pResultado, char* mensaje, char* mensajeError, int min, int max, int reintentos);
 
 int menu(int a, int b, int* rtdo);
 int sumar(int a, int b);

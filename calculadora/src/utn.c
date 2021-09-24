@@ -12,52 +12,8 @@ int menu(int a, int b, int* rtdo)
 	printf("5. Salir\n");
 	scanf("%d",&(*rtdo));
 	return 0;
-
-
-
-	/*a) Calcular la suma (A+B)
-	b) Calcular la resta (A-B)
-	c) Calcular la division (A/B)
-	d) Calcular la multiplicacion (A*B)
-	e) Calcular el factorial (A!)
-
-	a) “El resultado de A+B es: r”
-	b) “El resultado de A-B es: r”
-	c) “El resultado de A/B es: r” o “No es posible dividir por cero”
-	d) “El resultado de A*B es: r”
-	e) “El factorial de A es: r1 y El factorial de B es: r2”*/
-
-
 }
-/*int utn_getInt(int* pResultado, char* mensaje, char* mensajeError, int min, int max, int reintentos)
-{
-	int bufferInt;
-	int retorno = -1;
 
-	if (pResultado != NULL && mensaje != NULL && mensajeError != NULL && min <= max && reintentos >= 0)
-	{
-		do
-		{
-			printf ("%s", mensaje);
-			scanf("%d", &bufferInt);
-
-			if(bufferInt >= min && bufferInt <= max)
-			{
-				*pResultado = bufferInt;
-				retorno = 0;
-				break;
-			}
-			else
-			{
-				fflush(stdin);
-				printf ("%s", mensajeError);
-				reintentos --;
-			}
-		}while(reintentos>=0);
-	}
-	return retorno;
-}
-*/
 int sumar(int a, int b)
 {
 	int rtdo;
